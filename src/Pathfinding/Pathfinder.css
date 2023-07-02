@@ -1,0 +1,111 @@
+*{
+  text-align: center;
+}
+
+.dropbtn {
+  user-select: none;
+  background-color: #610096;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:	#0fff83;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0.7,0.7);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  user-select: none;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {
+  background-color: #ff495f;
+  transform: scale(1.03);
+  transition: 0.3s;
+  border: 1px solid black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2c0281;
+}
+
+.nw{
+  background-color: yellow;
+  padding: 10px 10px;
+  cursor:no-drop;
+  font-size: 18px;
+  user-select: none;
+}
+
+.grid-container {
+    padding: 40px 0px;
+    background-color: rgb(252, 233, 209);
+    border: 5px solid black;
+    margin: 0px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+.grid{
+  white-space: pre;
+}
+
+.text{
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  top: 13%;
+  font-size: 18px;
+  user-select: none;
+}
+
+.btn{
+  background-color: rgb(3, 3, 39);
+  padding: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  user-select: none;
+}
+
+.btn > button{
+  background-color: rgb(255, 0, 72);
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+.btn > button:hover{
+  background-color: rgb(76, 13, 120);
+  color: rgb(225, 255, 0);
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px white solid;
+}
